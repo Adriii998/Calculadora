@@ -12,7 +12,7 @@ import java.awt.event.ActionListener;
  *
  * @author adri
  */
-public class Controlador implements ActionListener {
+public class Controlador{
     
     private Vista view;
     private Modelo mod;
@@ -22,11 +22,5 @@ public class Controlador implements ActionListener {
         view=new Vista();
         mod=new Modelo();
     }
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
     
 }
